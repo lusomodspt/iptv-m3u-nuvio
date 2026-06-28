@@ -40,7 +40,7 @@
       "tagStyle": "filled",
       "textColor": "#00000000",
       "borderColor": "#00000000",
-      "isEnabled": false
+      "isEnabled": true
     },
     {
       "id": "1080p-full-hd",
@@ -52,7 +52,7 @@
       "tagStyle": "filled",
       "textColor": "#00000000",
       "borderColor": "#00000000",
-      "isEnabled": false
+      "isEnabled": true
     },
     {
       "id": "720p-hd",
@@ -64,7 +64,7 @@
       "tagStyle": "filled",
       "textColor": "#00000000",
       "borderColor": "#00000000",
-      "isEnabled": false
+      "isEnabled": true
     },
     {
       "id": "480p-sd",
@@ -76,7 +76,7 @@
       "tagStyle": "filled",
       "textColor": "#00000000",
       "borderColor": "#00000000",
-      "isEnabled": false
+      "isEnabled": true
     },
     {
       "id": "dolby-vision",
@@ -88,7 +88,7 @@
       "tagStyle": "filled",
       "textColor": "#00000000",
       "borderColor": "#00000000",
-      "isEnabled": false
+      "isEnabled": true
     },
     {
       "id": "hdr10-plus",
@@ -100,7 +100,7 @@
       "tagStyle": "filled",
       "textColor": "#00000000",
       "borderColor": "#00000000",
-      "isEnabled": false
+      "isEnabled": true
     },
     {
       "id": "hdr10",
@@ -112,7 +112,7 @@
       "tagStyle": "filled",
       "textColor": "#00000000",
       "borderColor": "#00000000",
-      "isEnabled": false
+      "isEnabled": true
     },
     {
       "id": "hdr",
@@ -124,7 +124,7 @@
       "tagStyle": "filled",
       "textColor": "#00000000",
       "borderColor": "#00000000",
-      "isEnabled": false
+      "isEnabled": true
     },
     {
       "id": "sdr",
@@ -136,7 +136,7 @@
       "tagStyle": "filled",
       "textColor": "#00000000",
       "borderColor": "#00000000",
-      "isEnabled": false
+      "isEnabled": true
     },
     {
       "id": "imax-enhanced",
@@ -148,7 +148,7 @@
       "tagStyle": "filled",
       "textColor": "#00000000",
       "borderColor": "#00000000",
-      "isEnabled": false
+      "isEnabled": true
     },
     {
       "id": "imax",
@@ -160,7 +160,7 @@
       "tagStyle": "filled",
       "textColor": "#00000000",
       "borderColor": "#00000000",
-      "isEnabled": false
+      "isEnabled": true
     },
     {
       "id": "dolby-atmos",
@@ -172,7 +172,7 @@
       "tagStyle": "filled",
       "textColor": "#00000000",
       "borderColor": "#00000000",
-      "isEnabled": false
+      "isEnabled": true
     },
     {
       "id": "truehd",
@@ -184,7 +184,7 @@
       "tagStyle": "filled",
       "textColor": "#00000000",
       "borderColor": "#00000000",
-      "isEnabled": false
+      "isEnabled": true
     },
     {
       "id": "dolby-digital-plus",
@@ -196,7 +196,7 @@
       "tagStyle": "filled",
       "textColor": "#00000000",
       "borderColor": "#00000000",
-      "isEnabled": false
+      "isEnabled": true
     },
     {
       "id": "dolby-digital",
@@ -208,7 +208,7 @@
       "tagStyle": "filled",
       "textColor": "#00000000",
       "borderColor": "#00000000",
-      "isEnabled": false
+      "isEnabled": true
     },
     {
       "id": "q-r",
@@ -220,7 +220,7 @@
       "tagStyle": "bordered",
       "textColor": "#FFFFFF",
       "borderColor": "#FFFFFF",
-      "isEnabled": false
+      "isEnabled": true
     },
     {
       "id": "q-b",
@@ -232,7 +232,7 @@
       "tagStyle": "bordered",
       "textColor": "#FFFFFF",
       "borderColor": "#FFFFFF",
-      "isEnabled": false
+      "isEnabled": true
     },
     {
       "id": "q-w",
@@ -244,7 +244,7 @@
       "tagStyle": "bordered",
       "textColor": "#FFFFFF",
       "borderColor": "#FFFFFF",
-      "isEnabled": false
+      "isEnabled": true
     },
     {
       "id": "q-w-2",
@@ -256,7 +256,7 @@
       "tagStyle": "bordered",
       "textColor": "#FFFFFF",
       "borderColor": "#FFFFFF",
-      "isEnabled": false
+      "isEnabled": true
     },
     {
       "id": "q-hdtv",
@@ -268,7 +268,7 @@
       "tagStyle": "bordered",
       "textColor": "#FFFFFF",
       "borderColor": "#FFFFFF",
-      "isEnabled": false
+      "isEnabled": true
     },
     {
       "id": "q-dvdscr",
@@ -280,7 +280,7 @@
       "tagStyle": "bordered",
       "textColor": "#FFFFFF",
       "borderColor": "#FFFFFF",
-      "isEnabled": false
+      "isEnabled": true
     },
     {
       "id": "q-dvdrip",
@@ -292,7 +292,7 @@
       "tagStyle": "bordered",
       "textColor": "#FFFFFF",
       "borderColor": "#FFFFFF",
-      "isEnabled": false
+      "isEnabled": true
     },
     {
       "id": "q-cam",
@@ -304,7 +304,7 @@
       "tagStyle": "bordered",
       "textColor": "#FFFFFF",
       "borderColor": "#FFFFFF",
-      "isEnabled": false
+      "isEnabled": true
     }
   ]
 }
