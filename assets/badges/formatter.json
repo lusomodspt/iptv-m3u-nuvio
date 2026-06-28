@@ -8,6 +8,13 @@
       "isExpanded": false
     },
     {
+      "id": "gq",
+      "name": "Quality",
+      "color": "#27C04F",
+      "isExpanded": false,
+      "borderColor": "#00000000"
+    },
+    {
       "id": "video-tech",
       "name": "Video Tech",
       "color": "#00000000",
@@ -20,13 +27,6 @@
       "color": "#00000000",
       "borderColor": "#00000000",
       "isExpanded": false
-    },
-    {
-      "id": "gq",
-      "name": "Quality",
-      "color": "#27C04F",
-      "isExpanded": false,
-      "borderColor": "#00000000"
     }
   ],
   "filters": [
@@ -76,6 +76,102 @@
       "tagStyle": "filled",
       "textColor": "#00000000",
       "borderColor": "#00000000",
+      "isEnabled": true
+    },
+    {
+      "id": "q-r",
+      "groupId": "gq",
+      "name": "Remux",
+      "pattern": "(?i)\\b(?:bd|uhd)?remux\\b",
+      "imageURL": "https://cdn.jsdelivr.net/gh/sweatycab/nuvio-minimalist-badges@main/badges/white-remux.svg",
+      "tagColor": "#00000000",
+      "tagStyle": "bordered",
+      "textColor": "#FFFFFF",
+      "borderColor": "#FFFFFF",
+      "isEnabled": true
+    },
+    {
+      "id": "q-b",
+      "groupId": "gq",
+      "name": "BluRay",
+      "pattern": "(?i)^(?=.*(?:bluray|blu-ray|\\bb[dr][-_. ]?rip\\b|\\bbd(?:25|50|r|mv)?\\b))(?!.*\\b(?:bd|uhd)?remux\\b)",
+      "imageURL": "https://cdn.jsdelivr.net/gh/sweatycab/nuvio-minimalist-badges@main/badges/white-bluray.svg",
+      "tagColor": "#00000000",
+      "tagStyle": "bordered",
+      "textColor": "#FFFFFF",
+      "borderColor": "#FFFFFF",
+      "isEnabled": true
+    },
+    {
+      "id": "q-w",
+      "groupId": "gq",
+      "name": "WebDL",
+      "pattern": "(?i)\\b(?:web[-_. ]?dl|webdl|web(?![-_. ]?rip)\\b)",
+      "imageURL": "https://cdn.jsdelivr.net/gh/sweatycab/nuvio-minimalist-badges@main/badges/white-webdl.svg",
+      "tagColor": "#00000000",
+      "tagStyle": "bordered",
+      "textColor": "#FFFFFF",
+      "borderColor": "#FFFFFF",
+      "isEnabled": true
+    },
+    {
+      "id": "q-w-2",
+      "groupId": "gq",
+      "name": "WebRip",
+      "pattern": "(?i)^(?=.*\\brip\\b|.*\\bweb[-_. ]?rip\\b|.*\\bhd[-_. ]?rip\\b)(?!.*\\b(?:bd|br)[-_. ]?rip\\b)(?!.*\\bdvd[-_. ]?rip\\b)(?!.*\\b(?:hd[-_. ]?)?tc[-_. ]?rip\\b)(?!.*\\b(?:hd[-_. ]?)?ts[-_. ]?rip\\b)(?!.*\\b(?:hd[-_. ]?)?cam[-_. ]?rip\\b)(?!.*\\btc\\b)(?!.*\\btelecine\\b)(?!.*\\bhdtc\\b)(?!.*\\bts\\b)(?!.*\\btelesync\\b)(?!.*\\bhdts\\b)",
+      "imageURL": "https://cdn.jsdelivr.net/gh/sweatycab/nuvio-minimalist-badges@main/badges/white-webrip.svg",
+      "tagColor": "#00000000",
+      "tagStyle": "bordered",
+      "textColor": "#FFFFFF",
+      "borderColor": "#FFFFFF",
+      "isEnabled": true
+    },
+    {
+      "id": "q-hdtv",
+      "groupId": "gq",
+      "name": "HDTV",
+      "pattern": "(?i)\\b(?:hdtv|pdtv|sdtv|dsr)\\b",
+      "imageURL": "https://cdn.jsdelivr.net/gh/sweatycab/nuvio-minimalist-badges@main/badges/white-HDTV.svg",
+      "tagColor": "#00000000",
+      "tagStyle": "bordered",
+      "textColor": "#FFFFFF",
+      "borderColor": "#FFFFFF",
+      "isEnabled": true
+    },
+    {
+      "id": "q-dvdscr",
+      "groupId": "gq",
+      "name": "DVDScr",
+      "pattern": "(?i)\\bdvd[\\s._-]?scr(?:eener)?\\b",
+      "imageURL": "https://cdn.jsdelivr.net/gh/sweatycab/nuvio-minimalist-badges@main/badges/white-DVDScr.svg",
+      "tagColor": "#00000000",
+      "tagStyle": "bordered",
+      "textColor": "#FFFFFF",
+      "borderColor": "#FFFFFF",
+      "isEnabled": true
+    },
+    {
+      "id": "q-dvdrip",
+      "groupId": "gq",
+      "name": "DVDRip",
+      "pattern": "(?i)^(?=.*\\bdvd[\\s._-]?rip\\b)(?!.*\\bdvd[\\s._-]?scr)",
+      "imageURL": "https://cdn.jsdelivr.net/gh/sweatycab/nuvio-minimalist-badges@main/badges/white-DVDRip.svg",
+      "tagColor": "#00000000",
+      "tagStyle": "bordered",
+      "textColor": "#FFFFFF",
+      "borderColor": "#FFFFFF",
+      "isEnabled": true
+    },
+    {
+      "id": "q-cam",
+      "groupId": "gq",
+      "name": "CAM",
+      "pattern": "(?i)^(?=.*(?:\\b(?:hd[-_. ]?)?cam(?:[-_. ]?rip)?\\b|\\b(?:hd[-_. ]?)?ts(?:[-_. ]?rip)?\\b|\\btelesync\\b|\\bp(?:re[\\s._-]?)?dvd(?:rip)?\\b|\\b(?:hd[-_. ]?)?tc(?:[-_. ]?rip)?\\b|\\btelecine\\b|(?<!dvd)(?<!dvd[._-])\\bscr(?:eener)?\\b))(?!.*\\bdvd[\\s._-]?scr)",
+      "imageURL": "https://cdn.jsdelivr.net/gh/sweatycab/nuvio-minimalist-badges@main/badges/white-CAM.svg",
+      "tagColor": "#00000000",
+      "tagStyle": "bordered",
+      "textColor": "#FFFFFF",
+      "borderColor": "#FFFFFF",
       "isEnabled": true
     },
     {
@@ -184,126 +280,6 @@
       "tagStyle": "filled",
       "textColor": "#00000000",
       "borderColor": "#00000000",
-      "isEnabled": true
-    },
-    {
-      "id": "dolby-digital-plus",
-      "groupId": "audio-tech",
-      "name": "Dolby Digital Plus",
-      "pattern": "(?i)\\b(ddp[\\s._-]*[0-9][\\s._-]*[0-9]|ddp|dd\\+|dolby[\\s._-]*digital[\\s._-]*plus|e-?ac-?3)(?![a-z])",
-      "imageURL": "https://raw.githubusercontent.com/leonevz/Elite-Badges/main/Badges/dolby_digital_plus.png",
-      "tagColor": "#00000000",
-      "tagStyle": "filled",
-      "textColor": "#00000000",
-      "borderColor": "#00000000",
-      "isEnabled": true
-    },
-    {
-      "id": "dolby-digital",
-      "groupId": "audio-tech",
-      "name": "Dolby Digital",
-      "pattern": "(?i)\\b(dd[\\s._-]*[0-9][\\s._-]*[0-9]|dd|dolby[\\s._-]*digital|ac-?3)(?![\\s._-]*plus|\\+|p|[a-z])",
-      "imageURL": "https://raw.githubusercontent.com/leonevz/Elite-Badges/main/Badges/dolby_digital.png",
-      "tagColor": "#00000000",
-      "tagStyle": "filled",
-      "textColor": "#00000000",
-      "borderColor": "#00000000",
-      "isEnabled": true
-    },
-    {
-      "id": "q-r",
-      "groupId": "gq",
-      "name": "Remux",
-      "pattern": "(?i)\\b(?:bd|uhd)?remux\\b",
-      "imageURL": "https://cdn.jsdelivr.net/gh/sweatycab/nuvio-minimalist-badges@main/badges/white-remux.svg",
-      "tagColor": "#00000000",
-      "tagStyle": "bordered",
-      "textColor": "#FFFFFF",
-      "borderColor": "#FFFFFF",
-      "isEnabled": true
-    },
-    {
-      "id": "q-b",
-      "groupId": "gq",
-      "name": "BluRay",
-      "pattern": "(?i)^(?=.*(?:bluray|blu-ray|\\bb[dr][-_. ]?rip\\b|\\bbd(?:25|50|r|mv)?\\b))(?!.*\\b(?:bd|uhd)?remux\\b)",
-      "imageURL": "https://cdn.jsdelivr.net/gh/sweatycab/nuvio-minimalist-badges@main/badges/white-bluray.svg",
-      "tagColor": "#00000000",
-      "tagStyle": "bordered",
-      "textColor": "#FFFFFF",
-      "borderColor": "#FFFFFF",
-      "isEnabled": true
-    },
-    {
-      "id": "q-w",
-      "groupId": "gq",
-      "name": "WebDL",
-      "pattern": "(?i)\\b(?:web[-_. ]?dl|webdl|web(?![-_. ]?rip)\\b)",
-      "imageURL": "https://cdn.jsdelivr.net/gh/sweatycab/nuvio-minimalist-badges@main/badges/white-webdl.svg",
-      "tagColor": "#00000000",
-      "tagStyle": "bordered",
-      "textColor": "#FFFFFF",
-      "borderColor": "#FFFFFF",
-      "isEnabled": true
-    },
-    {
-      "id": "q-w-2",
-      "groupId": "gq",
-      "name": "WebRip",
-      "pattern": "(?i)^(?=.*\\brip\\b|.*\\bweb[-_. ]?rip\\b|.*\\bhd[-_. ]?rip\\b)(?!.*\\b(?:bd|br)[-_. ]?rip\\b)(?!.*\\bdvd[-_. ]?rip\\b)(?!.*\\b(?:hd[-_. ]?)?tc[-_. ]?rip\\b)(?!.*\\b(?:hd[-_. ]?)?ts[-_. ]?rip\\b)(?!.*\\b(?:hd[-_. ]?)?cam[-_. ]?rip\\b)(?!.*\\btc\\b)(?!.*\\btelecine\\b)(?!.*\\bhdtc\\b)(?!.*\\bts\\b)(?!.*\\btelesync\\b)(?!.*\\bhdts\\b)",
-      "imageURL": "https://cdn.jsdelivr.net/gh/sweatycab/nuvio-minimalist-badges@main/badges/white-webrip.svg",
-      "tagColor": "#00000000",
-      "tagStyle": "bordered",
-      "textColor": "#FFFFFF",
-      "borderColor": "#FFFFFF",
-      "isEnabled": true
-    },
-    {
-      "id": "q-hdtv",
-      "groupId": "gq",
-      "name": "HDTV",
-      "pattern": "(?i)\\b(?:hdtv|pdtv|sdtv|dsr)\\b",
-      "imageURL": "https://cdn.jsdelivr.net/gh/sweatycab/nuvio-minimalist-badges@main/badges/white-HDTV.svg",
-      "tagColor": "#00000000",
-      "tagStyle": "bordered",
-      "textColor": "#FFFFFF",
-      "borderColor": "#FFFFFF",
-      "isEnabled": true
-    },
-    {
-      "id": "q-dvdscr",
-      "groupId": "gq",
-      "name": "DVDScr",
-      "pattern": "(?i)\\bdvd[\\s._-]?scr(?:eener)?\\b",
-      "imageURL": "https://cdn.jsdelivr.net/gh/sweatycab/nuvio-minimalist-badges@main/badges/white-DVDScr.svg",
-      "tagColor": "#00000000",
-      "tagStyle": "bordered",
-      "textColor": "#FFFFFF",
-      "borderColor": "#FFFFFF",
-      "isEnabled": true
-    },
-    {
-      "id": "q-dvdrip",
-      "groupId": "gq",
-      "name": "DVDRip",
-      "pattern": "(?i)^(?=.*\\bdvd[\\s._-]?rip\\b)(?!.*\\bdvd[\\s._-]?scr)",
-      "imageURL": "https://cdn.jsdelivr.net/gh/sweatycab/nuvio-minimalist-badges@main/badges/white-DVDRip.svg",
-      "tagColor": "#00000000",
-      "tagStyle": "bordered",
-      "textColor": "#FFFFFF",
-      "borderColor": "#FFFFFF",
-      "isEnabled": true
-    },
-    {
-      "id": "q-cam",
-      "groupId": "gq",
-      "name": "CAM",
-      "pattern": "(?i)^(?=.*(?:\\b(?:hd[-_. ]?)?cam(?:[-_. ]?rip)?\\b|\\b(?:hd[-_. ]?)?ts(?:[-_. ]?rip)?\\b|\\btelesync\\b|\\bp(?:re[\\s._-]?)?dvd(?:rip)?\\b|\\b(?:hd[-_. ]?)?tc(?:[-_. ]?rip)?\\b|\\btelecine\\b|(?<!dvd)(?<!dvd[._-])\\bscr(?:eener)?\\b))(?!.*\\bdvd[\\s._-]?scr)",
-      "imageURL": "https://cdn.jsdelivr.net/gh/sweatycab/nuvio-minimalist-badges@main/badges/white-CAM.svg",
-      "tagColor": "#00000000",
-      "tagStyle": "bordered",
-      "textColor": "#FFFFFF",
-      "borderColor": "#FFFFFF",
       "isEnabled": true
     }
   ]
